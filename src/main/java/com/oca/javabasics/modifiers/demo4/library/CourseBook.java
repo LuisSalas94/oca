@@ -1,9 +1,11 @@
 package com.oca.javabasics.modifiers.demo4.library;
 
 public class CourseBook {
-    public void accessBookDetails() {
+    public void accessBook() {
         Book book = new Book();
-        book.issueCount = 10;
+        book.issueCount = 5;
         book.issueHistory();
+        System.out.println("CourseBook accessed issueCount: " + book.issueCount
+        );
     }
 }

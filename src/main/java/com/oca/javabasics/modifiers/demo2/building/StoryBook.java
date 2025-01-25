@@ -1,4 +1,6 @@
 package com.oca.javabasics.modifiers.demo2.building;
 
-public class StoryBook {
+import com.oca.javabasics.modifiers.demo2.library.Book;
+
+public class StoryBook extends Book {
 }

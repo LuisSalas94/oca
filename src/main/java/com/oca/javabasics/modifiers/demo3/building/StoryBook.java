@@ -10,8 +10,8 @@ public class StoryBook extends Book {
     }
 
     public static void main(String[] args) {
-        Book book = new Book();
-        //book.author = "Carl Sagan";
+        StoryBook storyBook = new StoryBook();
+        storyBook.accessProtectedMembers();
 
     }
 
