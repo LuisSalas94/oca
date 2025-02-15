@@ -7,7 +7,7 @@ public class BooleanExample {
     }
 
     public static void main(String[] args) {
-        
+
         boolean voucherPurchased = true;
         boolean examPrepStarted = true;
 
